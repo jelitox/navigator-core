@@ -1,4 +1,4 @@
-FROM python:3.9-alpine
+FROM python:3.8-alpine
 LABEL maintainer="javier@javierleon.dev"
 ENV PYTHONUNBUFFERED 1
 ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
